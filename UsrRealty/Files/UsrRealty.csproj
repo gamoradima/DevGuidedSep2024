@@ -376,11 +376,6 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtML">
-			<HintPath>$(RelativePkgFolderPath)/CrtML/$(StandalonePackageAssemblyPath)/CrtML.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtCalendar">
 			<HintPath>$(RelativePkgFolderPath)/CrtCalendar/$(StandalonePackageAssemblyPath)/CrtCalendar.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -388,6 +383,16 @@
 		</Reference>
 		<Reference Include="CrtEmailTemplate">
 			<HintPath>$(RelativePkgFolderPath)/CrtEmailTemplate/$(StandalonePackageAssemblyPath)/CrtEmailTemplate.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtML">
+			<HintPath>$(RelativePkgFolderPath)/CrtML/$(StandalonePackageAssemblyPath)/CrtML.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtWebhookServiceBase">
+			<HintPath>$(RelativePkgFolderPath)/CrtWebhookServiceBase/$(StandalonePackageAssemblyPath)/CrtWebhookServiceBase.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -401,23 +406,8 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtWebhookServiceBase">
-			<HintPath>$(RelativePkgFolderPath)/CrtWebhookServiceBase/$(StandalonePackageAssemblyPath)/CrtWebhookServiceBase.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtWebFormBase">
 			<HintPath>$(RelativePkgFolderPath)/CrtWebFormBase/$(StandalonePackageAssemblyPath)/CrtWebFormBase.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtCopilot">
-			<HintPath>$(RelativePkgFolderPath)/CrtCopilot/$(StandalonePackageAssemblyPath)/CrtCopilot.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="XSSProtection">
-			<HintPath>$(RelativePkgFolderPath)/XSSProtection/$(StandalonePackageAssemblyPath)/XSSProtection.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -446,11 +436,6 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="FeatureToggling">
-			<HintPath>$(RelativePkgFolderPath)/FeatureToggling/$(StandalonePackageAssemblyPath)/FeatureToggling.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtNextStep">
 			<HintPath>$(RelativePkgFolderPath)/CrtNextStep/$(StandalonePackageAssemblyPath)/CrtNextStep.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -466,13 +451,38 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtTouchPointBase">
-			<HintPath>$(RelativePkgFolderPath)/CrtTouchPointBase/$(StandalonePackageAssemblyPath)/CrtTouchPointBase.dll</HintPath>
+		<Reference Include="FeatureToggling">
+			<HintPath>$(RelativePkgFolderPath)/FeatureToggling/$(StandalonePackageAssemblyPath)/FeatureToggling.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtCopilot">
+			<HintPath>$(RelativePkgFolderPath)/CrtCopilot/$(StandalonePackageAssemblyPath)/CrtCopilot.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="XSSProtection">
+			<HintPath>$(RelativePkgFolderPath)/XSSProtection/$(StandalonePackageAssemblyPath)/XSSProtection.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
 		<Reference Include="CrtProductivityMobile">
 			<HintPath>$(RelativePkgFolderPath)/CrtProductivityMobile/$(StandalonePackageAssemblyPath)/CrtProductivityMobile.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtTouchPointBase">
+			<HintPath>$(RelativePkgFolderPath)/CrtTouchPointBase/$(StandalonePackageAssemblyPath)/CrtTouchPointBase.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtProductivityApp">
+			<HintPath>$(RelativePkgFolderPath)/CrtProductivityApp/$(StandalonePackageAssemblyPath)/CrtProductivityApp.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtSecurity7x">
+			<HintPath>$(RelativePkgFolderPath)/CrtSecurity7x/$(StandalonePackageAssemblyPath)/CrtSecurity7x.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -491,28 +501,18 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtSecurity7x">
-			<HintPath>$(RelativePkgFolderPath)/CrtSecurity7x/$(StandalonePackageAssemblyPath)/CrtSecurity7x.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="CrtProductivityApp">
-			<HintPath>$(RelativePkgFolderPath)/CrtProductivityApp/$(StandalonePackageAssemblyPath)/CrtProductivityApp.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtCustomer360App">
 			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtC360InUiV2">
-			<HintPath>$(RelativePkgFolderPath)/CrtC360InUiV2/$(StandalonePackageAssemblyPath)/CrtC360InUiV2.dll</HintPath>
+		<Reference Include="CrtSpecification">
+			<HintPath>$(RelativePkgFolderPath)/CrtSpecification/$(StandalonePackageAssemblyPath)/CrtSpecification.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtSpecification">
-			<HintPath>$(RelativePkgFolderPath)/CrtSpecification/$(StandalonePackageAssemblyPath)/CrtSpecification.dll</HintPath>
+		<Reference Include="CrtC360InUiV2">
+			<HintPath>$(RelativePkgFolderPath)/CrtC360InUiV2/$(StandalonePackageAssemblyPath)/CrtC360InUiV2.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
