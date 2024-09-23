@@ -9,6 +9,13 @@
 			<Item Name="LocalizableStrings.addRecord_inrw1lj_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_rwq9lbz_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.Button_nrmoq3o_caption.Value" Value="Push me!" />
+			<Item Name="LocalizableStrings.ExpansionPanel_spupzxl_title.Value" Value="Realty visit" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_38mywxp_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_ad94dtu_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_sn90qvn_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_sgl485z_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_xne6k5y_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_vxvs32v_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.NumberInput_3y5rcrw_label.Value" Value="Number" />
 		</Items>
 	</Group>
