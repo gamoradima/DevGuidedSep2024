@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "27675836-de7e-4b4b-b854-0ec3df635dc3",
     "Name": "UsrRealty_ListPage",
-    "ModifiedOnUtc": "\/Date(1726677082000)\/",
+    "ModifiedOnUtc": "\/Date(1727102232000)\/",
     "Parent": {
       "UId": "3334b6c0-c8ab-4b59-a367-0c9182102552",
       "Name": "ListPageV2Template"
